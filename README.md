@@ -11,6 +11,7 @@ Getting Started
 
 Usage
 -----
+* Use Git to clone looking-glass-secrets into the same folder you have looking-glass in.
 * Run 'ssh-keygen'
 * Type 'ssh/id_rsa'
 * Set a suitably strong passphrase
