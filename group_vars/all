@@ -1,4 +1,5 @@
 ---
 # file: group_vars/all
 
+# Username of "glass" management user.
 user: glass
