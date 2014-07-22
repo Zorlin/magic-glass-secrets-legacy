@@ -14,4 +14,5 @@ Usage
 * Run 'ssh-keygen'
 * Type 'ssh/id_rsa'
 * Set a suitably strong passphrase
-* Run 'ln -s vars ../looking-glass/vars' to set up your variables folder.
+* Run 'cd ../looking-glass'
+* Run 'ln -s ../looking-glass-secrets/group_vars group_vars' to set up your variables folder.
