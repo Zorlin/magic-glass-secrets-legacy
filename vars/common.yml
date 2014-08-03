@@ -1,0 +1,4 @@
+---
+# file: vars/common.yml
+# group_vars/all is usually used for site-wide defaults
+# in favour of this file, as it's usually more appropriate.

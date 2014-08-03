@@ -1,0 +1,8 @@
+---
+# file: vars/CentOS.yml
+
+# Name of apache package
+apache_pkg: httpd
+
+# Group used for sudoers access
+sudo_group: wheel

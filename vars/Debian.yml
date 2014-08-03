@@ -1,0 +1,8 @@
+---
+# file: vars/Debian.yml
+
+# Name of apache package
+apache_pkg: apache2
+
+# Group used for sudoers access
+sudo_group: sudo
