@@ -3,3 +3,6 @@
 
 # Username of "glass" management user.
 user: glass
+
+# Domain name to use for DNS, DHCP etc.
+domain: getglass.io
