@@ -1,5 +1,8 @@
 ---
-# fle: group_vars/dhcp-server
+# file: group_vars/dhcp-servers
 
-# Username of "glass" management user.
+# Chosen DHCP server.
+# Valid values are "dnsmasq" and "isc".
 dhcp_daemon: dnsmasq
+
+
