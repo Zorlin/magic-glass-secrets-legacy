@@ -5,4 +5,6 @@
 # Valid values are "dnsmasq" and "isc".
 dhcp_daemon: dnsmasq
 
-
+# Set the DHCP range for the DHCP server (or disable it).
+# Add a # to the beginning to disable the DHCP server.
+dhcp_range: 'dhcp-range=10.0.2.2,192.168.0.102,12h'
