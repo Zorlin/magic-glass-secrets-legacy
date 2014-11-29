@@ -17,4 +17,5 @@ Usage
 * Type 'ssh/id_rsa'
 * Set a suitably strong passphrase
 * Run 'cd ../looking-glass'
-* Run 'ln -s ../looking-glass-secrets/group_vars group_vars' to set up your variables folder.
+* Run 'ln -s ../looking-glass-secrets/group_vars group_vars' to set up your group variables folder.
+* Run 'ln -s ../looking-glass-secrets/vars vars' to set up your main variables folder.
