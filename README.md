@@ -11,7 +11,9 @@ Getting Started
 
 Usage
 -----
-* Use Git to clone looking-glass-secrets into the same folder you have looking-glass in.
-* Run 'ssh-keygen -f ./looking-glass-secrets/ssh/id_rsa'
-* Run 'ln -s ../looking-glass-secrets/group_vars ./looking-glass/group_vars' to set up your group variables folder.
-* Run 'ln -s ../looking-glass-secrets/vars ./looking-glass/vars' to set up your main variables folder.
+* Run the following commands in order to create keys and link necessary variables.
+` ssh-keygen -f ./looking-glass-secrets/ssh/id_rsa`
+
+`ln -s ../looking-glass-secrets/group_vars ./looking-glass/group_vars`
+
+`ln -s ../looking-glass-secrets/vars ./looking-glass/vars`
