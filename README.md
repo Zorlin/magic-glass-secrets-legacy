@@ -12,6 +12,7 @@ Getting Started
 Usage
 -----
 * Run the following commands in order to create keys and link necessary variables.
+
 ` ssh-keygen -f ./looking-glass-secrets/ssh/id_rsa`
 
 `ln -s ../looking-glass-secrets/group_vars ./looking-glass/group_vars`
