@@ -4,5 +4,8 @@
 # Username of "glass" management user.
 user: glass
 
+# Username used for initial deployment.
+deploy_user: dpadmin
+
 # Domain name to use for DNS, DHCP etc.
 domain: getglass.io
