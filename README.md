@@ -1,4 +1,4 @@
-looking-glass-secrets
+magic-glass-secrets
 =====================
 
 An example set of secrets for Magic Glass. You should use this to create your "secrets" repository.
@@ -11,10 +11,10 @@ Getting Started
 
 Usage
 -----
-* Run the following commands in order to create keys and link necessary variables.
+* Run the following commands in order to create keys and link necessary variables. You should be standing in your projects folder (within which magic-glass and magic-glass-secrets exist), not inside the MG folders.
 
 ` ssh-keygen -f ./magic-glass-secrets/ssh/id_rsa`
 
-`ln -s ../magic-glass-secrets/group_vars ./magic-glass/group_vars`
+`ln -s ./magic-glass-secrets/group_vars ./magic-glass/group_vars`
 
-`ln -s ../magic-glass-secrets/vars ./magic-glass/vars`
+`ln -s ./magic-glass-secrets/vars ./magic-glass/vars`
