@@ -1,7 +1,7 @@
 magic-glass-secrets
 =====================
 
-An example set of secrets for Magic Glass. You should use this to create your "secrets" repository.
+An example set of secrets for [Magic Glass](https://github.com/getglass/magic-glass). You should use this to create your "secrets" repository.
 
 Be careful submitting pull requests for magic-glass-secrets; by design this can contain passwords,
 certificates and other sensitive data!
