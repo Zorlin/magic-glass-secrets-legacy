@@ -15,6 +15,6 @@ Usage
 
 ` ssh-keygen -f ./magic-glass-secrets/ssh/id_rsa`
 
-`ln -s ./magic-glass-secrets/group_vars ./magic-glass/group_vars`
+`ln -s ../magic-glass-secrets/group_vars ./magic-glass/group_vars`
 
-`ln -s ./magic-glass-secrets/vars ./magic-glass/vars`
+`ln -s ../magic-glass-secrets/vars ./magic-glass/vars`
