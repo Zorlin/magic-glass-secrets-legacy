@@ -1,0 +1,17 @@
+---
+# file: group_vars/lizardfs-chunkserver
+
+# Working user
+lfs_WORKING_USER: mfs
+
+# Working group
+lfs_WORKING_GROUP: mfs
+
+# Hostname to bind to. Usually the default (*) is good enough.
+lfs_BIND_HOST: \*
+
+# Master IP or hostname.
+lfs_MASTER_HOST: 10.0.2.10
+
+# Master port
+lfs_MASTER_PORT: 9420
