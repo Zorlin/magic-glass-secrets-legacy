@@ -11,7 +11,7 @@ Getting Started
 
 Usage
 -----
-* Run the following commands in order to create keys and link necessary variables. You should be standing in your projects folder (within which magic-glass and magic-glass-secrets exist), not inside the MG folders.
+* Run the following commands in order to create keys and link necessary variables. You should be standing in your Projects folder (within which magic-glass and magic-glass-secrets exist), not inside the MG folders.
 
 ` ssh-keygen -f ./magic-glass-secrets/ssh/id_rsa`
 
