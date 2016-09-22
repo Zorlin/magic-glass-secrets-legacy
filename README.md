@@ -14,3 +14,13 @@ Usage
 * Run the following command in order to create keys. You should be standing in your Projects folder (within which magic-glass and magic-glass-secrets exist), not inside the MG folders.
 
 ` ssh-keygen -f ./magic-glass-secrets/ssh/id_rsa`
+
+* Run the following command to set up links
+
+` ln -s ../magic-glass-secrets/ ./magic-glass/secrets`
+
+Note, if you are using different repository names you will need slightly modified commands. Example:
+
+` ssh-keygen -f ./av-deploy-secrets/ssh/id_rsa`
+
+` ln -s ../av-deploy-secrets/ ./av-deploy/secrets`
